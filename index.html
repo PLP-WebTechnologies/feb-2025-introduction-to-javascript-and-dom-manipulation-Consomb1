@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Palace - Buy Fresh Potatoes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Potato Palace</h1>
+        <nav>
+            <ul>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="shop">
+        <section class="product">
+            <h2>Fresh Potatoes</h2>
+            <p id="priceText">Price: $2.99 per pound</p>
+            <img src="https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fresh Potatoes">
+            <div class="buttons">
+                <button onclick="updatePrice()">Update Price</button>
+                <button onclick="changeDisplay()">Change Display</button>
+                <button onclick="toggleReview()">Add/Remove Review</button>
+            </div>
+            <article id="reviewSection" class="review">
+                <p>Customer Review: These potatoes are the best I've ever tasted!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Potato Palace. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
